@@ -53,17 +53,17 @@
 </script>
 
 <form id="dropzone" 
-class="shadow-2xl border-dashed border-2 border-gray-300 redounded-lg aspect-video w-full flex justify-center items-center flex-col"
+class="shadow-2xl border-dashed bg-orange-100 border-2 border-gray-400 redounded-lg aspect-video w-full flex justify-center items-center flex-col"
 action="https://api.cloudinary.com/v1_1/ddeun9v2x/image/upload"
 >
     {#if $imageStatus === ImageStatus.READY}
-    <button class="pointer-events-none bg-blue-600 rounded-full 
+    <button class="pointer-events-none bg-blue-600 rounded-xl 
     text-bold text-white text-xl px-6 py-4">
-        upload files
+        Upload files
     </button>
-    <strong class="text-lg mt-4 text-gray-800">Or drop a file</strong>
+    <strong class="text-lg mt-4 text-gray-500">Or drop a file</strong>
 
     {:else if $imageStatus === ImageStatus.UPLOADING}
-        <strong class="text-lg mt-4 text-gray-800">Uploading files</strong>
+        <strong class="text-lg mt-4 text-gray-500">Uploading files</strong>
     {/if}
 </form>

@@ -8,8 +8,8 @@
 
 
 <div class="max-m-xl grid-cols-1 m-uto place-content-center w-full h-screen p-4">
-  <header class="justify justify-center py-10">
-    <h1 class="text-3xl font-bold text-blue-900 tracking-tighter">remove<span class="text-blue-600">bg</span></h1>
+  <header class="justify justify-center py-10 bg-gray-200">
+    <h1 class="text-3xl font-bold text-orange-600 text-center tracking-tighter">remove<span class="text-blue-500">bg</span></h1>
   </header>
   <main class="w-full block">
     {#if $imageStatus === ImageStatus.READY || $imageStatus === ImageStatus.UPLOADING}
