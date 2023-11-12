@@ -23,10 +23,11 @@
   </main>
 
   <footer
-    class="flex justify-center bg-black text-white items-center gap-x-2 font-semibold p-6"
+    class="flex justify-center fixed bottom-0 w-full bg-black text-white items-center gap-x-2 font-semibold p-6"
   >
-    Hecho con <a href="https://cloudinary" target="_blank" rel="noreferrer"
+    Made with <a href="https://cloudinary" target="_blank" rel="noreferrer"
       ><CloudinaryLogo /></a
-    > por Jonatan Villalva
+    >
+    By Jonatan Villalva
   </footer>
 </div>
